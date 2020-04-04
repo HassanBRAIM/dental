@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(img5.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.Go {
+	margin-top: 90px;
+	margin-left: 100px;
+}
+
+.Re {
+	padding: 20px;
+	border: none;
+	border-radius: 20px;
+	width: 300px;
+	background: url(img2.jpg) no-repeat;
+	background-position: left;
+	background-size: auto;
+}
+
+.Re h1 {
+	text-align: center;
+	font-size: 25px;
+	font-family: serif;
+	padding-top: 10px
+}
+
+.register {
+	padding-left: 10px;
+	text-align: inherit;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	border-radius: 200px;
+	position: absolute;
+	top: 30px;
+	left: 220px;
+}
+
+.write {
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-radius: 10px;
+	border-bottom: 1px solid #e056fd;
+	outline: inherit;
+	line-height: 20px;
+	padding-left: 10px;
+}
+
+.write:hover {
+	background: #4bcffa;
+	color: #3c40c6;
+}
+
+.btn {
+	background: #22a6b3;
+	color: #f9ca24;
+	width: 100%;
+	border: none;
+	border-radius: 20px;
+	height: 40px;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.btn:hover {
+	background: #f9ca24;
+	color: inherit;
+	cursor: pointer;
+}

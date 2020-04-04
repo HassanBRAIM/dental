@@ -1,0 +1,203 @@
+@charset "ISO-8859-1";
+
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+	background: url(img5.jpg) no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.Menu {
+	background: #34e7e4;
+	text-align: center;
+}
+
+.Menu ul {
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+
+.Menu ul li {
+	width: 120px;
+	height: 15px;
+	padding: 18px;
+}
+
+.Menu ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.Menu ul li :hover {
+	background: #34e7e4;
+	color: black;
+}
+
+.Menu i {
+	margin-right: 10px;
+}
+
+.sub-menu {
+	display: none;
+}
+
+.Menu ul li:hover .sub-menu {
+	display: block;
+	background: transparent;
+	position: absolute;
+	background: #34e7e4;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.Menu ul li:hover .sub-menu ul {
+	display: block;
+	margin: 10px;
+}
+
+.Menu ul li:hover .sub-menu ul li {
+	width: 120px;
+	padding: 15px;
+	background: transparent;
+	border-radius: 20px;
+	border-bottom: 0.5px solid #fff;
+	text-align: left;
+}
+
+.Menu ul li:hover .sub-menu ul li a:hover {
+	color: #2980b9;
+}
+
+.subb-menu{
+	display: none;
+	
+}
+
+.sub-log:hover .subb-menu{
+	display: block;
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 110px;
+	background: #34e7e4;
+	border-radius: 20px;
+	width: 150px;
+}
+
+
+
+.logout{
+	text-align: right;
+	flot: right;
+}
+
+.logo {
+	float: left;
+	margin-top: 9px;
+	margin-left: 10%;
+	padding-right: 20px;
+	font-style: italic;
+	font-size: 30px;
+}
+
+.loginbox {
+	width: 320px;
+	height: 420px;
+	background: url(img2.jpg) no-repeat;
+	background-position: left;
+	color: #fff;
+	margin-top: 120px;
+	margin-left: 80px;
+	position: absolute;
+	transition: translate(-50%, -50%);
+	box-sizing: border-box;
+	border-radius: 30px;
+	padding: 70px 30px;
+}
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 35%;
+}
+
+.Here {
+	font-size: 22px;
+	text-align: center;
+	color: #000;
+	padding-bottom: 10px;
+}
+
+.loginbox p {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
+}
+
+.loginbox input {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.one {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 15px;
+}
+
+.btn {
+	border: none;
+	ouline: none;
+	background: #fb2525;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+	border-radius: 20px;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+.loginbox a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #7f8c8d
+}
+
+.loginbox a:hover {
+	color: #ffc107;
+}
+.loginbox .LB{
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	
+}
+.choix{
+	padding: 0 50px;
+}
+.loginbox .Radio{
+	width: 20px;
+	font-size: 12px;
+}
