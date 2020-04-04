@@ -25,7 +25,22 @@
 						<li><a href="#"><i class="fas fa-calendar-history"></i>History</a></li>
 					</ul>
 				</div></li>
-			
+	<!--Login-->
+	<div class="loginbox">
+		<img src="avatar.png" alt="" class="avatar">
+		<h1 class="Here">Login Here</h1>
+		<form class="" action="Login" method="post">
+			<p>Username</p>
+			<input type="text" class="one" name="username" value=""
+				placeholder="Enter username">
+			<p>Password</p>
+			<input type="password" class="one" name="password" value=""
+				placeholder="Enter password">
+		    <input type="Submit" class="btn" value="Login"> 
+		    <a href="#">Lost yourpassword?</a><br>
+		    <a href="http://localhost:8081/WebApplication/Register.jsp">Don't have a account?</a>
+		</form>
+	</div>			
 
 			<li><a href="#"><i class="fas fa-phone"></i>Contact</a>
 				<div class="sub-menu">
