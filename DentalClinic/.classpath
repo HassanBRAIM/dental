@@ -8,5 +8,25 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/Hibernate_Annot/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/Hibernate_Annot/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/Hibernate_Annot/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/Hibernate_Annot/hibernate-core-4.1.9.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/Hibernate_Annot/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/Hibernate_Annot/javassist-3.17.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/Hibernate_Annot/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/Hibernate_Annot/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/hibernateProject/lib/antlr-2.7.6rc1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/hibernateProject/lib/asm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/hibernateProject/lib/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/hibernateProject/lib/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/hibernateProject/lib/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/hibernateProject/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/hibernateProject/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/hibernateProject/lib/ehcache-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/hibernateProject/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/hibernateProject/lib/jta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/hibernateProject/lib/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BRAIM/Desktop/hibernateProject/lib/mysql-connector-java-3.0.17-ga-bin.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
